@@ -2,7 +2,7 @@
 
 El proyecto se encuentra desarrollado con `Spring boot 2.5.14`, `gradle 7.1` y `Java 11`.
 
-Se exponen dos endpoint, uno llamado `/sign-up` y otro llamado `/login` securtizado con `Spring boot security` y `Jwt token` utilizando `HS256` como algoritmo criptogr·fico
+Se exponen dos endpoint, uno llamado `/sign-up` y otro llamado `/login` securtizado con `Spring boot security` y `Jwt token` utilizando `HS256` como algoritmo criptogr√°fico
 
 Se utiliza `H2` como base de datos para `dev` y `test` junto con Spring data para la realizacion de operaciones CRUD
 
@@ -27,7 +27,7 @@ se debe ejecutar los siguientes comandos:
 
 # Diagrama de componentes
 
-![](.\img\diagrama de componente.png)
+![](./img/diagrama de componente.png)
 
 # Diagrama de secuencia
 
