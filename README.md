@@ -9,17 +9,21 @@ Se utiliza `H2` como base de datos para `dev` y `test` junto con Spring data par
 El proyecto esta respaldado con test con `mockito` y `jupiter` y este abarca a la capa de controller, service y repository con un coverage de 87%
 ![](.\img\coverage.png)
 
-se utiliza la dependencia `lombok` para minimizar la repeticion de codigo
+se utiliza la dependencia `lombok` para minimizar la repeticion de codigo.
+
+se utiliza la dependencia `openApi` para la documentacion de la api.
 
 # Como se ejecuta el proyecto
 
 se debe ejecutar los siguientes comandos: 
 
-`./gradlew build` para instalar dependencias
+`./gradlew build` para instalar dependencias.
 
-`./gradlew startServer` para ejecutar el proyecto
+`./gradlew startServer` para ejecutar el proyecto.
 
-`./gradlew testAndCoverageReport` para correr los test y generar el coverage
+`./gradlew testAndCoverageReport` para correr los test y generar el coverage.
+
+`{your-application-url}/swagger-ui.html` contiene la documentacion de la API.
 
 # Diagrama de componentes
 
