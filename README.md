@@ -7,7 +7,7 @@ Se exponen dos endpoint, uno llamado `/sign-up` y otro llamado `/login` securtiz
 Se utiliza `H2` como base de datos para `dev` y `test` junto con Spring data para la realizacion de operaciones CRUD
 
 El proyecto esta respaldado con test con `mockito` y `jupiter` y este abarca a la capa de controller, service y repository con un coverage de 87%
-![](.\img\coverage.png)
+![](img/coverage.png)
 
 se utiliza la dependencia `lombok` para minimizar la repeticion de codigo.
 
@@ -27,10 +27,10 @@ se debe ejecutar los siguientes comandos:
 
 # Diagrama de componentes
 
-![](./img/diagrama de componente.png)
+![](img/diagrama-de-componente.png)
 
 # Diagrama de secuencia
 
-![](.\img\diagrama de secuencia login.png)
+![](img/diagrama-de-secuencia-login.png)
 
-![](.\img\diagrama de secuencia sign up.png)
+![](img/diagrama-de-secuencia-sign-up.png)
