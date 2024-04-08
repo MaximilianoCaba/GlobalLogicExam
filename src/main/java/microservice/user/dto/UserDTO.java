@@ -35,7 +35,7 @@ public class UserDTO {
   @Schema(description = "Personal email", example = "myEmail@company.com")
   private String email;
 
-  @Schema(description = "Private password encrypted", example = "LJKHNsvbafonkl598jnasfbbjf63246")
+  @Schema(description = "Private password encrypted", example = "$2a$10$Pdub3v0biMsvk5C9mUKC3.26DUMeSkYGVL8a5gY6CGXiZi0rZO67m")
   private String password;
 
   @Schema(description = "List of phones associated")
