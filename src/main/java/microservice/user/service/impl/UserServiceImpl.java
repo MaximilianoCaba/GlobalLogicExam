@@ -58,8 +58,11 @@ public class UserServiceImpl implements UserService {
 
     if (signUpDTO.getPhones() != null) {
       List<PhoneEntity> phoneEntities = signUpDTO.getPhones().stream()
-          .map(phoneDto -> modelMapper.map(phoneDto, PhoneEntity.class))
-          .peek(phoneEntity -> phoneEntity.setUser(userEntity))
+          .map(phoneDto -> {
+            PhoneEntity phoneEntity = modelMapper.map(phoneDto, PhoneEntity.class);
+            phoneEntity.setUser(userEntity);
+            return phoneEntity;
+          })
           .collect(Collectors.toList());
       userEntity.setPhones(phoneEntities);
     }

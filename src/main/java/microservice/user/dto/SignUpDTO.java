@@ -22,7 +22,6 @@ public class SignUpDTO {
 
   @Schema(description = "Personal user email", example = "myEmail@company.com")
   @NotBlank(message = "The email cannot be empty.")
-  @Email(message = "Must be a valid email format.")
   @NotEmpty(message = "email is required.")
   @Email(message = "Email should be valid.")
   private String email;
